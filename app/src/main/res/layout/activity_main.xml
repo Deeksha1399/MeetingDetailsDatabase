@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSaveMeeting"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save_meeting_details"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnSearchMeeting"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/search_meeting_details"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnUpdateMeeting"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/update_meeting_details"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

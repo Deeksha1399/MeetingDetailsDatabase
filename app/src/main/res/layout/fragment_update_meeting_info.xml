@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateMeetingInfoFragment">
+
+    <EditText
+        android:id="@+id/etUpdateMeetingID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/meeting_id_to_update_time"
+        android:inputType="number"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/etUpdateMeetingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/update_meeting_time"
+        android:inputType="time"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btnUpdateMeeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/update_meeting_time" />
+
+
+</LinearLayout>
